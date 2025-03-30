@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -13,7 +15,10 @@
     "@radix-ui/react-slot": "^1.1.2",
     "@shadcn/ui": "^0.0.4",
     "components": "^0.1.0",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "expresss": "^0.0.0",
+    "mongoose": "^8.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.1"
